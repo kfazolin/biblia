@@ -6,4 +6,6 @@ $('.carousel').carousel({
 // Activates Tooltips for Social Links
 $('.tooltip-social').tooltip({
   selector: "a[data-toggle=tooltip]"
-})
+});
+
+$('[data-toggle="popover"]').popover({'placement': 'top'});
