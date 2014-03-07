@@ -7,11 +7,7 @@ $('.carousel').carousel({
 $('.tooltip-social').tooltip({
   selector: "a[data-toggle=tooltip]"
 });
-/*
-$('[data-toggle="popover"]').click(function(){
-	$("#"+this.id).popover({'content': this.id});
-});
-*/
+
 $('[data-toggle="popover"]').popover({'placement': 'top'});
  
 $('[data-toggle="popover"]').on('show.bs.popover', function () {
@@ -29,10 +25,33 @@ $('[data-toggle="popover"]').on('show.bs.popover', function () {
     },
     async:false
   });
-
-   
-  // $("#"+this.id).popover({'content': this.id});
 });
+
+$('[data-bible]').ready(function()
+{
+	for(i =0; i < $('[data-bible]').length; i++)
+	{
+		var file = $('[data-bible]')[i].attributes[0].value;
+		SetText(file, $('[data-bible]')[i]);
+	}
+	// alert('');
+});
+
+function SetText(fileName, component)
+{
+	jQuery.ajax({
+    url: "bible/"+fileName+".html",
+	dataType: 'html',
+	error: function (data) {
+	alert(data)
+	},
+    success: function(data) {
+	  component.textContent = data;
+    }
+  });
+  
+}
+
 
 // footer
 $( "#footer" ).load( "include/footer.html");
