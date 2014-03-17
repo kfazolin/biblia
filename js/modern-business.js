@@ -15,7 +15,7 @@ $('[data-toggle="popover"]').on('show.bs.popover', function () {
   var popover = $("#"+this.id).data('bs.popover');
    
   jQuery.ajax({
-    url: "bible/"+this.id+".html",
+    url: "bible/"+this.id +".html",
 	dataType: 'html',
 	error: function (data) {
 	alert(data)
