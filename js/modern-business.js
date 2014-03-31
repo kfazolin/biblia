@@ -63,11 +63,86 @@ $( ".appeal" ).load( "include/appeal.html");
 // biblical
 $( ".biblical" ).load( "include/biblical.html");
 
+// flag
+$( ".flag" ).load( "include/flag.html");
+
 // footer
 $( "#footer" ).load( "include/footer.html");
 
 // menu
 $( "#menu" ).load( "include/menu.html");
+
+// n_01
+$( ".n_01" ).load( "include/n_01.html");
+
+// n_02
+$( ".n_02" ).load( "include/n_02.html");
+
+// n_03
+$( ".n_03" ).load( "include/n_03.html");
+
+// n_04
+$( ".n_04" ).load( "include/n_04.html");
+
+// n_05
+$( ".n_05" ).load( "include/n_05.html");
+
+// n_06
+$( ".n_06" ).load( "include/n_06.html");
+
+// n_07
+$( ".n_07" ).load( "include/n_07.html");
+
+// n_08
+$( ".n_08" ).load( "include/n_08.html");
+
+// n_09
+$( ".n_09" ).load( "include/n_09.html");
+
+// n_10
+$( ".n_10" ).load( "include/n_10.html");
+
+// n_11
+$( ".n_11" ).load( "include/n_11.html");
+
+// n_12
+$( ".n_12" ).load( "include/n_12.html");
+
+// n_13
+$( ".n_13" ).load( "include/n_13.html");
+
+// n_14
+$( ".n_14" ).load( "include/n_14.html");
+
+// n_15
+$( ".n_15" ).load( "include/n_15.html");
+
+// n_16
+$( ".n_16" ).load( "include/n_16.html");
+
+// n_17
+$( ".n_17" ).load( "include/n_17.html");
+
+// n_18
+$( ".n_18" ).load( "include/n_18.html");
+
+// n_19
+$( ".n_19" ).load( "include/n_19.html");
+
+// n_20
+$( ".n_20" ).load( "include/n_20.html");
+
+// n_21
+$( ".n_21" ).load( "include/n_21.html");
+
+// n_22
+$( ".n_22" ).load( "include/n_22.html");
+
+// n_23
+$( ".n_23" ).load( "include/n_23.html");
+
+// n_24
+$( ".n_24" ).load( "include/n_24.html");
 
 // note
 $( ".note" ).load( "include/note.html");
