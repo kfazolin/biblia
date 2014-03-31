@@ -54,6 +54,14 @@ function SetText(fileName, component)
   
 }
 
+// answer
+$( ".answer" ).load( "include/answer.html");
+
+// appeal
+$( ".appeal" ).load( "include/appeal.html");
+
+// biblical
+$( ".biblical" ).load( "include/biblical.html");
 
 // footer
 $( "#footer" ).load( "include/footer.html");
@@ -61,3 +69,233 @@ $( "#footer" ).load( "include/footer.html");
 // menu
 $( "#menu" ).load( "include/menu.html");
 
+// note
+$( ".note" ).load( "include/note.html");
+
+// page
+$( ".page" ).load( "include/page.html");
+
+// study
+$( ".study" ).load( "include/study.html");
+
+// study_1
+$( ".study_1" ).load( "include/study_1.html");
+
+// study_2
+$( ".study_2" ).load( "include/study_2.html");
+
+// study_3
+$( ".study_3" ).load( "include/study_3.html");
+
+// study_4
+$( ".study_4" ).load( "include/study_4.html");
+
+// study_5
+$( ".study_5" ).load( "include/study_5.html");
+
+// study_6
+$( ".study_6" ).load( "include/study_6.html");
+
+// study_7
+$( ".study_7" ).load( "include/study_7.html");
+
+// study_8
+$( ".study_8" ).load( "include/study_8.html");
+
+// study_9
+$( ".study_9" ).load( "include/study_9.html");
+
+// study_10
+$( ".study_10" ).load( "include/study_10.html");
+
+// study_11
+$( ".study_11" ).load( "include/study_11.html");
+
+// study_12
+$( ".study_12" ).load( "include/study_12.html");
+
+// study_13
+$( ".study_13" ).load( "include/study_13.html");
+
+// study_14
+$( ".study_14" ).load( "include/study_14.html");
+
+// study_15
+$( ".study_15" ).load( "include/study_15.html");
+
+// study_16
+$( ".study_16" ).load( "include/study_16.html");
+
+// study_17
+$( ".study_17" ).load( "include/study_17.html");
+
+// study_18
+$( ".study_18" ).load( "include/study_18.html");
+
+// study_19
+$( ".study_19" ).load( "include/study_19.html");
+
+// study_20
+$( ".study_20" ).load( "include/study_20.html");
+
+// study_21
+$( ".study_21" ).load( "include/study_21.html");
+
+// study_22
+$( ".study_22" ).load( "include/study_22.html");
+
+// study_23
+$( ".study_23" ).load( "include/study_23.html");
+
+// study_24
+$( ".study_24" ).load( "include/study_24.html");
+
+// speaks
+$( ".speaks" ).load( "include/speaks.html");
+
+// version
+$( ".version" ).load( "include/version.html");
+
+
+// books
+
+// 1corinthians
+$( ".1corinthians" ).load( "book/1corinthians.html");
+
+// 1corinthians
+$( ".1corinthians" ).load( "book/1corinthians.html");
+
+// 1chronicles
+$( ".1chronicles" ).load( "book/1chronicles.html");
+
+// 1john
+$( ".1john" ).load( "book/1john.html");
+
+// 1kings
+$( ".1kings" ).load( "book/1kings.html");
+
+// 1peter
+$( ".1peter" ).load( "book/1peter.html");
+
+// 1samuel
+$( ".1samuel" ).load( "book/1samuel.html");
+
+// 1timothy
+$( ".1timothy" ).load( "book/1timothy.html");
+
+// 1thessalonians
+$( ".1thessalonians" ).load( "book/1thessalonians.html");
+
+// 2corinthians
+$( ".2corinthians" ).load( "book/2corinthians.html");
+
+// 2kings
+$( ".2kings" ).load( "book/2kings.html");
+
+// 2peter
+$( ".2peter" ).load( "book/2peter.html");
+
+// 2samuel
+$( ".2samuel" ).load( "book/2samuel.html");
+
+// 2timothy
+$( ".2timothy" ).load( "book/2timothy.html");
+
+// 2thessalonians
+$( ".2thessalonians" ).load( "book/2thessalonians.html");
+
+// 3john
+$( ".3john" ).load( "book/3john.html");
+
+// acts
+$( ".acts" ).load( "book/acts.html");
+
+// amos
+$( ".amos" ).load( "book/amos.html");
+
+// colossians
+$( ".colossians" ).load( "book/colossians.html");
+
+// daniel
+$( ".daniel" ).load( "book/daniel.html");
+
+// deuteronomy
+$( ".deuteronomy" ).load( "book/deuteronomy.html");
+
+// ecclesiastes
+$( ".ecclesiastes" ).load( "book/ecclesiastes.html");
+
+// ephesians
+$( ".ephesians" ).load( "book/ephesians.html");
+
+// exodus
+$( ".exodus" ).load( "book/exodus.html");
+
+// ezekiel
+$( ".ezekiel" ).load( "book/ezekiel.html");
+
+// galatians
+$( ".galatians" ).load( "book/galatians.html");
+
+// genesis
+$( ".genesis" ).load( "book/genesis.html");
+
+// hebrews
+$( ".hebrews" ).load( "book/hebrews.html");
+
+// isaiah
+$( ".isaiah" ).load( "book/isaiah.html");
+
+// james
+$( ".james" ).load( "book/james.html");
+
+// jeremiah
+$( ".jeremiah" ).load( "book/jeremiah.html");
+
+// job
+$( ".job" ).load( "book/job.html");
+
+// joel
+$( ".joel" ).load( "book/joel.html");
+
+// john
+$( ".john" ).load( "book/john.html");
+
+// leviticus
+$( ".leviticus" ).load( "book/leviticus.html");
+
+// luke
+$( ".luke" ).load( "book/luke.html");
+
+// malachi
+$( ".malachi" ).load( "book/malachi.html");
+
+// mark
+$( ".mark" ).load( "book/mark.html");
+
+// matthew
+$( ".matthew" ).load( "book/matthew.html");
+
+// numbers
+$( ".numbers" ).load( "book/numbers.html");
+
+// philippians
+$( ".philippians" ).load( "book/philippians.html");
+
+// proverbs
+$( ".proverbs" ).load( "book/proverbs.html");
+
+// psalms
+$( ".psalms" ).load( "book/psalms.html");
+
+// revelation
+$( ".revelation" ).load( "book/revelation.html");
+
+// romans
+$( ".romans" ).load( "book/romans.html");
+
+// titus
+$( ".titus" ).load( "book/titus.html");
+
+// zechariah
+$( ".zechariah" ).load( "book/zechariah.html");
